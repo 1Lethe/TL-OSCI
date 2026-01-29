@@ -1,13 +1,3 @@
-/**
-  ******************************************************************************
-  * @file    LCD.c
-  * @brief   ILI9341 SPI DRIVERS FOR TM4C
-  * @author  Lihaozhe from ICEC-SAST of HEU
-  * @version V2.0
-  * @date    2015-7-20
-  ******************************************************************************
-  */
-	
 #include "ili9341_driver.h"
 #include "font.h"
 
@@ -809,7 +799,7 @@ char* get_num2str(double input,char *output,int set)
 	*f='\0';
 	return output;
 }
-/*******************Wunyje's part************************/
+
 void ILI9341_clear_w1(uint16_t Color)
 {
 	uint8_t VH,VL;
@@ -860,7 +850,7 @@ void ILI9341_float_4_display(unsigned int x,unsigned int y,float a,uint16_t colo
 	sprintf (buff,"%d.%04d",(unsigned int)a,(unsigned int)((a-(unsigned int)a)*10000));
     			ILI9341_draw_string(x,y,buff,color);
 }
-/*********************************************************/
+
 
 
 

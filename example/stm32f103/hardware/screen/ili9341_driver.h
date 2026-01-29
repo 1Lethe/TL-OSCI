@@ -83,7 +83,6 @@ void ili9341_display_some(uint16_t SR,uint16_t ER);///局部区域显示
 void ili9341_display_all(void);///退出局部区域显示
 void ili9341_VSCRDEF(uint16_t TFA,uint16_t VSA,uint16_t BFA,uint16_t VSP);///垂直滚动
 char* get_num2str(double input,char *output,int set); //代替sprintf 
-/****************************Wunyje's part********************************/
 void ILI9341_clear_w1(uint16_t Color);
 void ILI9341_int_display(unsigned int x,unsigned int y,int a,uint16_t color);
 void ILI9341_float_3_display(unsigned int x,unsigned int y,float a,uint16_t color);//保留几位小数
@@ -91,7 +90,6 @@ void ILI9341_float_5_display(unsigned int x,unsigned int y,float a,uint16_t colo
 void ILI9341_float_7_display(unsigned int x,unsigned int y,float a,uint16_t color);
 void ILI9341_float_4_display(unsigned int x,unsigned int y,float a,uint16_t color);
 
-/*************************************************************************/
 
 //画笔颜色
 
