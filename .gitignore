@@ -1,55 +1,37 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
+# --- 编译产物 (Build Outputs) ---
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
+*.o
 *.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
 *.hex
+*.bin
+*.axf
+*.elf
+*.map
+*.lst
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# --- Keil 中间文件 (Intermediate Files) ---
+*.crf
+*.d
+*.dep
+*.lnp
+*._ia
+*.htm
+*.build_log.htm
+*.sct
+*.log
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# --- IDE 个性化设置 (User specific files) ---
+# 这些文件记录了你本地窗口布局、断点等，不应上传
+*.uvgui.*
+*.uvguix.*
+*.txt
+*.bak
+*.dep
+*.json
+.vscode/*
 
-# debug information files
-*.dwo
+# --- 必须保留的文件 ---
+!*.ioc
+!*.c
+!*.h
+!*.s
