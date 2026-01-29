@@ -17,8 +17,7 @@ TL-OSC/
 └── example/         # 示例
 ```
 
-## TIPS:
-
+## TIPS：
 1.本项目使用GPL-v3开源协议
 2.相关寄存器配置选项请看OSC.h文件,写的很详细
 3.使用方法请看example
